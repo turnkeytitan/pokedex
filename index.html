@@ -5,45 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./desc.css">
   <title>Pokedex</title>
 </head>
 <body>
   <header>
-    <img src="https://imagenpng.com/wp-content/uploads/2016/09/Pokebola-pokeball-png-1.png" alt="">
+    <img src="https://imagenpng.com/wp-content/uploads/2016/09/Pokebola-pokeball-png-1.png" alt="Pokeball">
     <h1>Pokedex</h1>
   </header>
   <main>
-    <section>
-      <div class="pokename">
+    <section class="mainDesc">
+      <div class="mainDesc__pokename">
         <h2>Charizard</h2>  
       </div>
-      <div class="descImg">
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png" alt="" class="pokeimg">
+      <div class="mainDesc__descImg">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png" alt="pokemon" class="pokeimg">
       </div>
       
     </section>
-    <section class="mainDesc">
-      <div class="descItem">
+    <section class="scdDesc">
+      <div class="scdDesc__descItem">
         <div class="descTitle">NO</div>
         <div class="descInfo" id="NO">066</div>
       </div>
-      <div class="descItem">
+      <div class="scdDesc__descItem">
         <div class="descTitle">Level</div>
         <div class="descInfo" id="level">240</div>
       </div>
-      <div class="descItem">
+      <div class="scdDesc__descItem">
         <div class="descTitle">Type</div>
         <div class="descInfo" id="type">Fire</div>
       </div>
-      <div class="descItem">
+      <div class="scdDesc__descItem">
         <div class="descTitle">Ability</div>
         <div class="descInfo" id="ability">Flames</div>
       </div>
-      <div class="descItem">
+      <div class="scdDesc__descItem">
         <div class="descTitle">Height</div>
         <div class="descInfo" id="height">17</div>
       </div>
-      <div class="descItem">
+      <div class="scdDesc__descItem">
         <div class="descTitle">Weight</div>
         <div class="descInfo" id="weight">905</div>
       </div>
@@ -51,12 +52,12 @@
   </main>
   
   <footer>
-    <h1>Others</h1>
-    <section>
-      <div class="others"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt=""></div>
-      <div class="others"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png" alt=""></div>
-      <div class="others"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt=""></div>
-      <div class="others"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png" alt=""></div>
+    <h2>Others</h2>
+    <section class="fetch">
+      <div class="fetch__others"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="pokemon"></div>
+      <div class="fetch__others"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png" alt="pokemon"></div>
+      <div class="fetch__others"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="pokemon"></div>
+      <div class="fetch__others"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png" alt="pokemon"></div>
     </section>
   </footer>
 </body>
